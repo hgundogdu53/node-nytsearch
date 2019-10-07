@@ -30,7 +30,14 @@ app.get('/books', (req, res) => {
     if (sort) {
         results
             .sort((a, b) => {
-                return a[sort] > b[sort] ? 1 : a[sort] < b[sort] ? -1 : 0;
+                if (a[sort] > b[sort]) {
+                    return 1
+                }
+                else if (a[sort] < b[sort]) {
+                    return -1
+                }
+                return 0
+                //return a[sort] > b[sort] ? 1 : a[sort] < b[sort] ? -1 : 0;
             });
     }
 
