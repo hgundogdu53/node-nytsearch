@@ -1,3 +1,6 @@
 [submodule "nytClient"]
 	path = nytClient
 	url = https://github.com/hgundogdu53/node-nytsearch
+[submodule "nytClient-a"]
+	path = nytClient-a
+	url = https://github.com/hgundogdu53/node-nytsearch
