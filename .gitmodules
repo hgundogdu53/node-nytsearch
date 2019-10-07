@@ -1,0 +1,3 @@
+[submodule "nytClient"]
+	path = nytClient
+	url = https://github.com/hgundogdu53/node-nytsearch
